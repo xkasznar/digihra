@@ -1,0 +1,101 @@
+body{
+	background-color: black;
+	color: white;
+}
+.ta{
+	margin: 8px;
+	width: 535px;
+	font-size:24px;
+}
+.sneakCls{
+	min-width: unset;
+	width: 30px;
+	height: 50px;
+}
+label{
+	font-size: 24px;
+}
+#bigtctl{
+	font-size: 24px;
+}
+button{
+	font-size: 33px;
+	width: 246px;
+}
+#navod{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: none;
+	background-color: gold;
+	width: 535px;
+	color: black;
+	padding: 10px;
+}
+#dummy{
+	display: none;
+}
+
+#btctl, #bigtctl, #vrstvaHore, #vstup, #vrstvaDole{
+	text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px){
+	.ta{
+		margin: 2vw;
+		width: 87vw;
+		font-size: 4.05vw;
+	}	
+	.sneakCls{
+		width: unset;
+		min-width: 5.6vw;
+		height: auto;
+	}
+	.tctl{
+		font-size: 2.7vw;
+	}
+	label{
+		font-size: 4.05vw;
+	}
+	#bigtctl{
+		font-size: 4.05vw;
+	}
+	#lbulb{
+		height: 21.6vw;
+		width: 12.6vw;
+	}
+	button{
+		width: 40vw;
+		font-size: 5.6vw;
+	}
+	#navod{
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+		background-color: gold;
+		width: 100%;
+		color: black;
+		padding: 10px;
+		font-size: 4.05vw;
+	}
+	#navod img{
+		width: 48%;
+		height: auto;
+	}
+}
+@media print {
+	body * {
+		visibility: hidden;
+	}
+	#navod, #navod * {
+		visibility: visible;
+	}
+	#navod button {
+		visibility: hidden;
+	}
+
+}

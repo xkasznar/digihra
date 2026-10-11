@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Autor suboru: Martin Kasznar -->
+<!-- Posledna aktualizacia: Januar 2022 -->
+<levels>
+	<level>
+		<values>
+			<value>6</value> <!-- | -->
+			<value>6</value>
+			<value>6</value>
+		</values>
+		<fillins>
+			<fillin>0</fillin>
+			<fillin>!A*!B</fillin>
+			<fillin>!A*!B</fillin>
+			<fillin>0</fillin>
+			<fillin>0</fillin>
+			<fillin>0</fillin>
+			<fillin>0</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>78</value> <!-- C -->
+			<value>118</value> <!-- pi -->
+			<value>120</value> <!-- bet -->
+			<value>62</value> <!-- U -->
+		</values>
+		<fillins>
+			<fillin>0</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*!D)</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>120</value> <!-- bet -->
+			<value>118</value> <!-- pi -->
+			<value>78</value> <!-- C -->
+			<value>62</value> <!-- U -->
+		</values>
+		<fillins>
+			<fillin>0</fillin>
+			<fillin>(!A*!B*!C*D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*D)</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*!D)</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>6</value> <!-- |... -->
+			<value>8</value> <!-- _ -->
+			<value>48</value> <!-- ...| -->
+			<value>64</value> <!-- strop -->
+		</values>
+		<fillins>
+			<fillin>0</fillin>
+			<fillin>!C*!D</fillin>
+			<fillin>!C*!D</fillin>
+			<fillin>D*!C</fillin>
+			<fillin>C*!D</fillin>
+			<fillin>C*!D</fillin>
+			<fillin>C*D</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>8</value> <!-- _ -->
+			<value>1</value> <!-- - -->
+			<value>64</value> <!-- strop -->
+			<value>8</value> <!-- _ -->
+			<value>1</value> <!-- - -->
+			<value>64</value> <!-- strop -->
+		</values>
+		<fillins>
+			<fillin>(!A*!B*!C*D)+(!A*B*!C*!D)</fillin>
+			<fillin>0</fillin>
+			<fillin>0</fillin>
+			<fillin>(!A*!B*!C*!D)+(!A*!B*C*D)</fillin>
+			<fillin>0</fillin>
+			<fillin>0</fillin>
+			<fillin>(!A*!B*C*!D)+(!A*B*!C*D)</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>126</value> <!-- 0 -->
+			
+			<value>48</value> <!-- 1 -->
+			<value>109</value> <!-- 2 -->
+			<value>121</value> <!-- 3 -->
+			<value>51</value> <!-- 4 -->
+			
+			<value>91</value> <!-- 5 -->
+			<value>95</value> <!-- 6 -->
+			<value>112</value> <!-- 7 -->
+			<value>127</value> <!-- 8 -->
+			
+			<value>123</value> <!-- 9 -->
+		</values>
+		<fillins>
+			<fillin>A+!B*C+C*!D+B*!C</fillin>
+			<fillin>A+!C*!D+B*!C+B*!D</fillin>
+			<fillin>!B*!D+C*!D</fillin>
+			<fillin>A+!B*!D+!B*C+C*!D+B*!C*D</fillin>
+			<fillin>!C+D+B</fillin>
+			<fillin>!B+!C*!D+C*D</fillin>
+			<fillin>C+A+!B*!D+B*D</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>119</value> <!-- A -->
+			<value>127</value> <!-- B -->
+			<value>78</value> <!-- C -->
+			<value>126</value> <!-- D -->
+			
+			<value>79</value> <!-- E -->
+			<value>71</value> <!-- F -->
+			<value>94</value> <!-- G -->
+			<value>55</value> <!-- H -->
+			
+			<value>48</value> <!-- I -->
+			<value>60</value> <!-- J -->
+			<value>55</value> <!-- K -->
+			<value>14</value> <!-- L -->
+			
+			<value>118</value> <!-- M -->
+			<value>118</value> <!-- N -->
+			<value>126</value> <!-- O -->
+			<value>103</value> <!-- P -->
+		</values>
+		<fillins>
+			<fillin>!A*!C+B*C*D+A*!B*C*!D</fillin>
+			<fillin>!A+C+B</fillin>
+			<fillin>!A+D+C+B</fillin>
+			<fillin>!B*D+!A*!B*C+!A*B*!D+B*C*!D</fillin>
+			<fillin>!B*!C+A*!C+A*!D+!A*!B*D+!A*B*C</fillin>
+			<fillin>!B*!C+A*!D+A*B+!A*C*D</fillin>
+			<fillin>!A*!B+!A*!C+!A*!D+A*B</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>119</value> <!-- alfa -->
+			<value>127</value> <!-- beta -->
+			<value>70</value> <!-- gama -->
+			<value>126</value> <!-- delta -->
+			
+			<value>79</value> <!-- epsilon -->
+			<value>109</value> <!-- dzeta -->
+			<value>55</value> <!-- eta -->
+			<value>127</value> <!-- teta -->
+			
+			<value>48</value> <!-- iota -->
+			<value>55</value> <!-- kapa -->
+			<value>118</value> <!-- lamabda -->
+			<value>118</value> <!-- mi -->
+			
+			<value>118</value> <!-- ni -->
+			<value>73</value> <!-- xi -->
+			<value>126</value> <!-- omikron -->
+			<value>118</value> <!-- pi -->
+		</values>
+		<fillins>
+			<fillin>!A*!C+!C*D+!A*B</fillin>
+			<fillin>C+!A*!B+!B*D+B*!D</fillin>
+			<fillin>!A+C+!B*D+B*!D</fillin>
+			<fillin>!A*D+!A*B*!C+B*!C*D+A*B*C*!D</fillin>
+			<fillin>!B*!C+!B*D+B*C+A*!D</fillin>
+			<fillin>!B*!C+!A*D+!B*D+B*C+A*!D</fillin>
+			<fillin>!A*!B+!A*D+B*!C+A*C</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>55</value> <!-- alef -->
+			<value>120</value> <!-- bet -->
+			<value>56</value> <!-- gimel -->
+			<value>112</value> <!-- dalet -->
+			
+			<value>118</value> <!-- he -->
+			<value>48</value> <!-- vav -->
+			<value>48</value> <!-- zayin -->
+			<value>118</value> <!-- chet -->
+			
+			<value>62</value> <!-- tet -->
+			<value>64</value> <!-- yod -->
+			<value>120</value> <!-- kaf -->
+			<value>19</value> <!-- lamed -->
+			
+			<value>126</value> <!-- mem -->
+			<value>56</value> <!-- nun -->
+			<value>126</value> <!-- samech -->
+			<value>59</value> <!-- ayin -->
+		</values>
+		<fillins>
+			<fillin>A*C*D+!A*!B*!C*!D</fillin>
+			<fillin>!C*!D+B*C*D+A*C*D+A*B*!D</fillin>
+			<fillin>!C*!D+A*B*!D+!A*B*C*D</fillin>
+			<fillin>A*!D+A*B+!B*C*!D+!A*!B*!C*D</fillin>
+			<fillin>!A+!D+C+B</fillin>
+			<fillin>!A+!D+B</fillin>
+			<fillin>!B*!C*D+!A*C*D+B*!C*!D+A*C*!D</fillin>
+		</fillins>
+	</level>
+	<level>
+		<values>
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+			<value>127</value> <!-- vsetky -->
+		</values>
+		<fillins>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+			<fillin>1</fillin>
+		</fillins>
+	</level>
+</levels>

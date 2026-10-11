@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "sk">
+	<head>
+		<meta charset="UTF-8">
+		<title>Digihra - Martin Kasznár</title>
+		<link href="mojecss.css" rel="stylesheet">
+		<script src ="https://unpkg.com/mathjs@10.0.2/lib/browser/math.js"></script>
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+		<script src="jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
+		
+		<script src ="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+		<script src="script.js"></script>
+		<script>
+			reloadVrstvy();
+			lbulbLogic();
+		</script>
+		<link rel="shortcut icon" href="obr/favicon.ico">
+	</head>
+	<body>
+		<article>
+			<h2 id="dummy">dummy</h2>
+			<div id="bigtctl"></div>
+			<div id="vrstvaHore"></div>
+			<div id="vstup">
+				<label>a</label>
+				<input class="ta" id="a" onchange="reloadVrstvy()"><br>
+				<label>b</label>
+				<input class="ta" id="b" onchange="reloadVrstvy()"><br>
+				<label>c</label>
+				<input class="ta" id="c" onchange="reloadVrstvy()"><br>
+				<label>d</label>
+				<input class="ta" id="d" onchange="reloadVrstvy()"><br>
+				<label>e</label>
+				<input class="ta" id="e" onchange="reloadVrstvy()"><br>
+				<label>f</label>
+				<input class="ta" id="f" onchange="reloadVrstvy()"><br>
+				<label>g</label>
+				<input class="ta" id="g" onchange="reloadVrstvy()"><br>
+			</div>
+			<div id="vrstvaDole"></div>
+			<div id="btctl">
+				<button onclick="toggleGuide()">Návod</button> 
+				<button onclick="sunBlast();reloadVrstvy();">Riešenie</button>
+			</div>
+			<img src="obr/lbulb.png" id="lbulb" width ="75" height="128" alt="l-bulb">
+			<div id="navod">
+				<h1>Popis</h1>
+				<p>Podstatou Digihry je pomocou bitwise AND(*), OR(+), NOT(!) a za pomoci zátvoriek uviť sieť zodpovedajúcu zelenej časti obrázka hore - zo vstupov A,B,C,D, 1 aj 0. Žltá časť má ľubovoľný výsledok. Stránka pri šírke zobrazenia menej ako 1024px nadobudne responzívne mobilné prvky. Drag and drop je implementovaný v žiarovke, ktorá pristátím na input zaznačí správnu odpoveď jedného segmentu ako nápovedu. Hra funguje vynikajúco na mobiloch. Práca s XML je robustne implementovaná a resetuje celú inak náhodnú zapamätanú dráhu iba ak sa pohlo s počtom prvkov v XML či sa riadne prešlo 10 levelov. Cookies fungujú ako majú, úlohy sa striedajú ako majú, tlačidlo Riešenie hneď vyrieši súčasnú úlohu. Popis a návod pri tlači nie je snímaný ani s menu ani s hernou plochou.
+				</p>
+				<img src="obr/bcd.gif" width="250" height="125" alt="b-cd"> 
+				<img src="obr/spravna_mapa.png" width="250" height="125" alt="s-mapa">
+				<h1>Návod</h1>
+				<p>Vzorce sa majú zostavovať z toho čo je na obrázku a zadávajú sa k príslušnému segmentu do textového poľa, ktorý tak zostrojujeme. ! ekviv. "not ", A,B,C,D ekviv. a,b,c,d. Segment, čo svieti skoro vždy sa lepšie definuje tým kedy nesvieti ako kedy svieti. Opak platí o opaku. Existujú ťažkopádnejšie aj minimálne tie isté správne riešenia. Je ich nekonečno.<br>segment g z hebrejky: (!A*!B*!C*!D)+(!A*!B*!C*D)+(!A*!B*C*!D)
+				</p>
+				<button onclick = "toggleGuide()">Späť</button><br><br>
+			</div>
+		</article>
+	</body>
+</html>
